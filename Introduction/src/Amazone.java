@@ -11,6 +11,7 @@ public class Amazone {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//launch the browser
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.manage().window().maximize();
